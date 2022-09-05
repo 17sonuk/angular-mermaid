@@ -1,0 +1,13 @@
+
+
+<pre class="mermaid">
+  flowchart TD
+  A[Start] --> B&#123;Is it?&#125;
+  B ---->|No| A
+  B -->|Yes| C&#123;test&#125;
+  C -->|No| D[Rethink]
+  D --> B
+  
+  C ----> |Yes| E((END))
+
+</pre>
